@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#this script prints the absolute path of a directory
+
+pwd

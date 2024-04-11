@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A script that creates an SSH keypair with a passphrase
+
+ssh-keygen -b 4096 -f school -N betty

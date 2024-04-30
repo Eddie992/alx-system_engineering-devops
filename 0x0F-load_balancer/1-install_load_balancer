@@ -35,7 +35,7 @@ backend my_backend
     balance roundrobin
     option httpclose
     option forwardfor    
-    server 42607-web-01 3.85.33.93:80 check
-    server 42607-web-02 54.174.8.31:80 check" > /etc/haproxy/haproxy.cfg
+    server 42607-web-01 3.84.237.228:80 check
+    server 42607-web-02 52.91.122.37:80 check" > /etc/haproxy/haproxy.cfg
 
 service haproxy start

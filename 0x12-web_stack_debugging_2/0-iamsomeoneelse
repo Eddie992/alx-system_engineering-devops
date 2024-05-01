@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# This script runs the whoami command
-
-from sys import argv
-su -u "$1" whoami

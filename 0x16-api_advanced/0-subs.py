@@ -12,3 +12,8 @@ def number_of_subscribers(subreddit):
         return data['data']['subscribers']
     else:
         return 0
+
+# Example usage:
+subreddit = "learnpython"
+subscribers = number_of_subscribers(subreddit)
+print(f"The number of subscribers in r/{subreddit} is: {subscribers}")
